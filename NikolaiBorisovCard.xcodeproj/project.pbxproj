@@ -13,6 +13,8 @@
 		FA64A37D25BC117000AAA848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA64A37C25BC117000AAA848 /* Assets.xcassets */; };
 		FA64A38025BC117000AAA848 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA64A37F25BC117000AAA848 /* Preview Assets.xcassets */; };
 		FA64A38325BC117000AAA848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA64A38125BC117000AAA848 /* LaunchScreen.storyboard */; };
+		FA64A38D25BC166C00AAA848 /* JosefinSlab-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA64A38C25BC166B00AAA848 /* JosefinSlab-VariableFont_wght.ttf */; };
+		FA64A39825BC1FFD00AAA848 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64A39725BC1FFD00AAA848 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FA64A37F25BC117000AAA848 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA64A38225BC117000AAA848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA64A38425BC117000AAA848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA64A38C25BC166B00AAA848 /* JosefinSlab-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSlab-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		FA64A39725BC1FFD00AAA848 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		FA64A37525BC117000AAA848 /* NikolaiBorisovCard */ = {
 			isa = PBXGroup;
 			children = (
+				FA64A38B25BC164300AAA848 /* Fonts */,
 				FA64A37625BC117000AAA848 /* AppDelegate.swift */,
 				FA64A37825BC117000AAA848 /* SceneDelegate.swift */,
 				FA64A37A25BC117000AAA848 /* ContentView.swift */,
+				FA64A39725BC1FFD00AAA848 /* InfoView.swift */,
 				FA64A37C25BC117000AAA848 /* Assets.xcassets */,
 				FA64A38125BC117000AAA848 /* LaunchScreen.storyboard */,
 				FA64A38425BC117000AAA848 /* Info.plist */,
@@ -73,6 +79,14 @@
 				FA64A37F25BC117000AAA848 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA64A38B25BC164300AAA848 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA64A38C25BC166B00AAA848 /* JosefinSlab-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA64A38D25BC166C00AAA848 /* JosefinSlab-VariableFont_wght.ttf in Resources */,
 				FA64A38325BC117000AAA848 /* LaunchScreen.storyboard in Resources */,
 				FA64A38025BC117000AAA848 /* Preview Assets.xcassets in Resources */,
 				FA64A37D25BC117000AAA848 /* Assets.xcassets in Resources */,
@@ -145,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA64A39825BC1FFD00AAA848 /* InfoView.swift in Sources */,
 				FA64A37725BC117000AAA848 /* AppDelegate.swift in Sources */,
 				FA64A37925BC117000AAA848 /* SceneDelegate.swift in Sources */,
 				FA64A37B25BC117000AAA848 /* ContentView.swift in Sources */,
